@@ -5,7 +5,7 @@ export class CharacterSelect extends Phaser.Scene {
 
   private cursors!: Phaser.Types.Input.Keyboard.CursorKeys;
   private buttons: Phaser.GameObjects.Image[] = [];
-  private selectedButtonIndex: number;
+  private selectedButtonIndex: number = 0;
 
 
   constructor() {

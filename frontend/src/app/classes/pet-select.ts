@@ -26,7 +26,7 @@ export class PetSelect extends Phaser.Scene{
         this.load.spritesheet('Octopus', './assets/petSpriteSheets/Octopus.png', {frameWidth: 16, frameHeight: 16});
         this.load.spritesheet('Slime', './assets/petSpriteSheets/Slime.png', {frameWidth: 16, frameHeight: 16});
         this.load.spritesheet('Snake', './assets/petSpriteSheets/Snake.png', {frameWidth: 16, frameHeight: 16});
-        this.load.spritesheet('Spirit', './assets/petSpriteSheets/Spirit.png', {frameWidth: 16, frameHeight: 16});
+        this.load.spritesheet('Mushroom', './assets/petSpriteSheets/Mushroom.png', {frameWidth: 16, frameHeight: 16});
     }
 
     create() {
@@ -38,7 +38,7 @@ export class PetSelect extends Phaser.Scene{
         let octopusSprite = this.add.sprite(this.game.renderer.width * 0.2, this.game.renderer.height * 0.6, 'Octopus', 0).setScale(2).setInteractive();
         let slimeSprite = this.add.sprite(this.game.renderer.width * 0.4, this.game.renderer.height * 0.6, 'Slime', 0).setScale(2).setInteractive();
         let snakeSprite = this.add.sprite(this.game.renderer.width * 0.6, this.game.renderer.height * 0.6, 'Snake', 0).setScale(2).setInteractive();
-        let spiritSprite = this.add.sprite(this.game.renderer.width * 0.8, this.game.renderer.height * 0.6, 'Spirit', 0).setScale(2).setInteractive();
+        let mushroomSprite = this.add.sprite(this.game.renderer.width * 0.8, this.game.renderer.height * 0.6, 'Mushroom', 0).setScale(2).setInteractive();
     
         // Adding text onscreen
         var textConfig = { fontSize: '20px', color: '#ffffff', fontFamily: 'Courier New' };
@@ -53,7 +53,7 @@ export class PetSelect extends Phaser.Scene{
         this.buttons.push(octopusSprite);
         this.buttons.push(slimeSprite);
         this.buttons.push(snakeSprite);
-        this.buttons.push(spiritSprite);
+        this.buttons.push(mushroomSprite);
         // set all buttons to be grey tinted
         for (var but of this.buttons) {
             but.setTint(0x5c5c5c);

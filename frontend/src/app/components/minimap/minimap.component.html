@@ -1,0 +1,16 @@
+<button class="btn btn-info" (click)="triggerModal(modalData)">MAP</button>
+
+<ng-template #modalData let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">MAP</h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">×</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <img src='./assets/CODA_HIVE_map.png'/>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-danger" (click)="modal.close('Save click')">CLOSE</button>
+    </div>
+</ng-template>

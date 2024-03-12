@@ -1,0 +1,62 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Tiled/hive.tmx",
+    "expandedProjectPaths": [
+        ".",
+        "Tiled"
+    ],
+    "fileStates": {
+        "Tiled/TilesestHouse.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "Tiled/TilesetFloor.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "Tiled/TilesetFloorDetail.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "Tiled/TilesetNature.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled/hive.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 274,
+                "y": 228.99999999999997
+            }
+        }
+    },
+    "last.imagePath": "C:/Users/Anna/Documents/Anna's documents/code_projects/HIVE/NinjaAdventure/Backgrounds/Tilesets",
+    "map.height": 30,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "Tiled/hive.tmx",
+        "Tiled/TilesetFloor.tsx",
+        "Tiled/TilesestHouse.tsx",
+        "Tiled/TilesetNature.tsx",
+        "Tiled/TilesetFloorDetail.tsx"
+    ],
+    "project": "hive.tiled-project",
+    "recentFiles": [
+        "Tiled/TilesetFloorDetail.tsx",
+        "Tiled/TilesetNature.tsx",
+        "Tiled/TilesestHouse.tsx",
+        "Tiled/TilesetFloor.tsx",
+        "Tiled/hive.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

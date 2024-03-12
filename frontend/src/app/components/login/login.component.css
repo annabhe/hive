@@ -1,0 +1,25 @@
+.col-md-12{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.form-title{
+    margin: 2rem;
+}
+
+.alert-success {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alert-danger {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
